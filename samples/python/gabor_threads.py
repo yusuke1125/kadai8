@@ -59,7 +59,7 @@ def main():
 
     img = cv.imread(cv.samples.findFile(img_fn))
     if img is None:
-        print('Failed to load image file:', img_fn)
+        print('Failed to load image file!!!:', img_fn)
         sys.exit(1)
 
     filters = build_filters()
